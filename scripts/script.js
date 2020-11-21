@@ -6,7 +6,7 @@ module.exports = async function(callback) {
     const accounts = await web3.eth.getAccounts()
     // Assign accounts to variables
     const acc1 = accounts[0]
-    const acc2 = accounts[0]
+    const acc2 = accounts[1]
 
     // Fetch the deployed contract
     const contract = await ContractName.deployed()
